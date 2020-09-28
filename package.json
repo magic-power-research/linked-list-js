@@ -1,6 +1,6 @@
 {
   "name": "@magic-power-research/linked-list-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JavaScript Linked List",
   "main": "dist/linkedList.js",
   "scripts": {
