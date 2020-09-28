@@ -38,7 +38,7 @@ jobs:
       - name: Build code
         run: npm run default
       - name: Publish to npmjs.org
-        run: npm publish
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
@@ -58,6 +58,6 @@ jobs:
       - name: Build code
         run: npm run default
       - name: Publish to github.com
-        run: npm publish
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
