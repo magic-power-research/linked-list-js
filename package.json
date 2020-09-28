@@ -2,7 +2,7 @@
   "name": "@magic-power-research/linked-list-js",
   "version": "1.0.0",
   "description": "JavaScript Linked List",
-  "main": "index.js",
+  "main": "dist/linkedList.js",
   "scripts": {
     "test": "gulp eslint",
     "build": "gulp build",
